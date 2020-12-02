@@ -66,7 +66,7 @@ public class NewsApp_LogIn_tests {
 
 
         System.out.println(b);
-//        System.out.println( loginButton.getCoordinates().inViewPort().toString());;
+       /* System.out.println( loginButton.getCoordinates().inViewPort().toString());;*/
 
 
 
