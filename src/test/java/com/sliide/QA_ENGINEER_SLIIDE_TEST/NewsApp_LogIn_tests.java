@@ -48,8 +48,8 @@ public class NewsApp_LogIn_tests {
         el.sendKeys("Useeeeer");
         AndroidElement loginButton= androidDriver.findElement(By.id("com.test.news:id/buttonLogin"));
         loginButton.click();
-        Coordinates cor = loginButton.getCoordinates();
-        cor.inViewPort();
+   /*     Coordinates cor = loginButton.getCoordinates();
+        cor.inViewPort();*/
         Thread.sleep(5000);
 
         WebDriver driver1 = new Augmenter().augment(androidDriver);
@@ -66,7 +66,7 @@ public class NewsApp_LogIn_tests {
 
 
         System.out.println(b);
-        System.out.println( loginButton.getCoordinates().inViewPort().toString());;
+//        System.out.println( loginButton.getCoordinates().inViewPort().toString());;
 
 
 
